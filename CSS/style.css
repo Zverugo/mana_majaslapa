@@ -1,0 +1,213 @@
+body{
+    background-color: #ebfdd0;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    margin-top: 21px;
+}
+
+.left-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
+}
+
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    float: right;
+    margin-right: 300px;
+}
+
+.aboutUs{
+    background-color: #9BB991;
+    width: 800px;
+    float: left;
+    margin-left: 180px;
+    font-size: 24px;
+}
+
+.teamImage{
+    float: right;
+    margin-right: 100px;
+    width: 700px;
+}
+
+.teamImage figure{
+    font-size: 24px;
+}
+
+.searchMenu{
+    margin-top: -180px;
+    text-align: center;
+}
+
+.searchMenu div{
+    display: inline-block;
+    margin: 10px;
+}
+
+.searchMenu figure{
+    display: inline-block;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 600px;
+    margin-left: 170px;
+}
+
+.question{
+    float: right;
+    margin-top: 50px;
+    margin-right: 250px;
+    width: 850px;
+    font-size: 20px;
+}
+
+.question input{
+    margin-bottom: 30px;
+}
+
+.button{
+    font-family: tahoma, serif;
+    display:inline-block;
+    padding: 20px 80px;
+    margin-left: 26px;
+    background: #84a470;
+    color: floralwhite;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background: #678c40;
+}
+
+.medButton{
+    font-family: tahoma, serif;
+    padding: 15px 70px;
+    margin-top: 20px;
+    background: #9CCE6F;
+    color: black;
+    border-radius: 10px;
+    max-width: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.medButton:hover{
+    background: #BDDE9F
+}
+
+.itemButton{
+    font-family: tahoma, serif;
+    display: inline-block;
+    padding: 15px 70px;
+    margin-left: 26px;
+    background: #B6D7A8;
+    color: floralwhite;
+    border-radius: 10px;
+}
+
+.itemButton:hover{
+    background: #CEE4C5;
+}
+
+.item{
+    text-align: center;
+    margin: 50px;
+}
+
+.item img{
+    max-height: 300px;
+}
+
+.pageName{
+    width: 400px;
+    float: right;
+    margin-right: 1250px;
+    margin-top: 50px;
+}
+
+.image {
+    width: 20%;
+}
+
+.text{
+    text-align:center;
+    font-family: tahoma, serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.video {
+    text-align: center;
+    heigth: 30px;
+}
+
+.medImage{
+    width: 600px;
+    margin: 20px;
+}
+
+.medImage img{
+    width: 400px;
+}
+
+.medText{
+    width: 600px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    float: right;
+    padding-top: 50px;
+}
+
+.medInfo{
+    display: flex;
+    width: 100%;
+    margin: 10px 40px 20px 20px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.medContent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1300px;
+    float: right;
+    margin-right: 300px;
+}
+
+#googleMap{
+    width:25%;
+    left: 35%;
+    height: 300px;
+    margin-top: 400px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border: 3px solid red;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    font-family: tahoma, serif;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ebfdd0;
+}
