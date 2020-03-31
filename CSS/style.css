@@ -33,19 +33,10 @@ body{
     font-size: 24px;
 }
 
-.teamImage{
-    float: right;
-    margin-right: 100px;
-    width: 700px;
-}
-
-.teamImage figure{
-    font-size: 24px;
-}
-
 .searchMenu{
     margin-top: -180px;
     text-align: center;
+
 }
 
 .searchMenu div{
@@ -61,15 +52,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 600px;
-    height: 600px;
-    margin-left: 170px;
+    margin-left: 200px;
 }
 
 .question{
     float: right;
     margin-top: 50px;
-    margin-right: 250px;
+    margin-right: 50px;
     width: 850px;
     font-size: 20px;
 }
@@ -92,11 +81,11 @@ body{
     background: #678c40;
 }
 
-.medButton{
+.medButton {
     font-family: tahoma, serif;
     padding: 15px 70px;
     margin-top: 20px;
-    background: #9CCE6F;
+    background: #BDDE9F;
     color: black;
     border-radius: 10px;
     max-width: 40px;
@@ -105,7 +94,7 @@ body{
 }
 
 .medButton:hover{
-    background: #BDDE9F
+    background: #9CCE6F;
 }
 
 .itemButton{
@@ -113,13 +102,15 @@ body{
     display: inline-block;
     padding: 15px 70px;
     margin-left: 26px;
-    background: #B6D7A8;
+    background: #CEE4C5;
     color: floralwhite;
     border-radius: 10px;
+    margin-bottom: 200px;
+
 }
 
 .itemButton:hover{
-    background: #CEE4C5;
+    background: #B6D7A8;
 }
 
 .item{
@@ -146,13 +137,14 @@ body{
     text-align:center;
     font-family: tahoma, serif;
     font-size: 40px;
-    margin-bottom: 10px;
+
 
 }
 
 .video {
     text-align: center;
     heigth: 30px;
+    margin-bottom: 100px;
 }
 
 .medImage{
@@ -192,12 +184,14 @@ body{
 
 #googleMap{
     width:25%;
-    left: 35%;
+    left: 65%;
     height: 300px;
-    margin-top: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding: 50px;
     border: 3px solid red;
+    margin-right: 400px;
+
+
 }
 
 .footer{
